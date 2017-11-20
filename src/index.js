@@ -1,5 +1,2 @@
+import 'bootstrap/js/src/index';
 import './styles.scss';
-
-(($) => {
-  console.info('Hello world', $);
-})(window.jQuery);
