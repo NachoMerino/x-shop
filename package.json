@@ -1,0 +1,38 @@
+{
+  "name": "x-shop",
+  "version": "1.0.0",
+  "description": "An exercise about jQuery & Bootstrap",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "neutrino build",
+    "start": "neutrino start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeropaper/x-shop.git"
+  },
+  "keywords": [
+    "exercise",
+    "shop",
+    "bootstrap",
+    "jquery"
+  ],
+  "author": "Valentin Vago <zeropaper@irata.ch>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zeropaper/x-shop/issues"
+  },
+  "homepage": "https://github.com/zeropaper/x-shop#readme",
+  "devDependencies": {
+    "neutrino": "^7.3.2",
+    "neutrino-middleware-styles-loader": "0.0.6",
+    "neutrino-preset-airbnb-base": "^7.3.2",
+    "neutrino-preset-web": "^7.3.2",
+    "sass-loader": "^6.0.6"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2",
+    "jquery": "^3.2.1"
+  }
+}
