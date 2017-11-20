@@ -18,3 +18,13 @@ touch src/styles.scss
 touch src/_variables.scss
 npm start
 ```
+
+
+# Credits
+
+- src/static/images/igor-ovsyannykov-174012.jpg
+  https://unsplash.com/photos/WVFjZF2QNFk
+- src/static/images/toa-heftiba-195132.jpg
+  https://unsplash.com/photos/KQ1n6HzSahY
+- src/static/images/
+  https://unsplash.com/photos/BkaD07QEiJc
