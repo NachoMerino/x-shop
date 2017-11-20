@@ -1,0 +1,25 @@
+.shop-products-highlight,
+.shop-background-image {
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.shop-background-image {
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  .carousel-caption > * {
+    background-color: transparentize($body-color, 0.8);
+  }
+}
+
+.shop-products-highlight {
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  .card {
+    margin: ($grid-gutter-width * 0.5) 0;
+  }
+}
