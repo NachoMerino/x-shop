@@ -11,7 +11,7 @@ Exercise about jQuery, Bootstrap
 git clone git@github.com:zeropaper/x-shop.git
 cd x-shop/
 npm init
-npm i -D neutrino neutrino-preset-web neutrino-preset-airbnb-base neutrino-middleware-styles-loader sass-loader
+npm i -D neutrino neutrino-preset-web neutrino-preset-airbnb-base neutrino-middleware-styles-loader sass-loader node-sass
 npm i bootstrap@next jquery
 touch src/index.js
 touch src/styles.scss
