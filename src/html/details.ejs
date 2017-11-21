@@ -6,6 +6,10 @@
 <% htmlWebpackPlugin.options.meta = htmlWebpackPlugin.options.meta || [] %>
 <% htmlWebpackPlugin.options.scripts = htmlWebpackPlugin.options.scripts || [] %>
 
+<%
+// prevents a double inclusion bug
+htmlWebpackPlugin.files.js = [];
+%>
 <!DOCTYPE html>
 <html lang="<%= htmlWebpackPlugin.options.lang %>" <% if (htmlWebpackPlugin.files.manifest) { %> manifest="<%= htmlWebpackPlugin.files.manifest %>"<% } %>>
   <head>
