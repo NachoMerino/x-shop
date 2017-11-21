@@ -28,7 +28,7 @@ module.exports = {
         .plugin(`html-${entry}`)
           .use(HtmlPlugin, [{
               title: `A Shop | ${entry}`,
-              filename: `${entry}.html`,
+              filename: entry === 'index' ? 'index.html' : `${entry}/index.html`,
               template: join(neutrino.options.source, `html/${entry}.ejs`),
               chunks: ['index', 'vendor', 'runtime'],
               minify: {
